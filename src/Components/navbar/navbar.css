@@ -1,0 +1,50 @@
+.nav-container {
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    border-bottom: 3px solid #0f4c62;
+}
+
+.logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo p{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.centrado{
+    display:flex;
+    justify-content: center;
+}
+
+.imagen-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-item button {
+
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.nav-item button:hover {
+    /*text-decoration: overline;*/
+    color: #cb1a10;
+}
+
+.menu-burger{
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .cart  .menu-burger {
+        display: block;
+    }
+    .buscador{
+        display: none;
+    }
+}

@@ -1,0 +1,11 @@
+.contenedor-cart button{
+    margin-right: 15px;
+    background:none;
+    border: hidden;
+    }
+    
+    .button-cart{
+        color: #621414;
+        font-size: 16px;
+        font-weight: bold;
+    }
